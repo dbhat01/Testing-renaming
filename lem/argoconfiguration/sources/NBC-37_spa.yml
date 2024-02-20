@@ -4,19 +4,19 @@ source_a:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: SPA
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+      - language: SPA
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
     audio_grooming:
-      - pid: 482
-        language: SPA
-        skip_processing: false
-        labels:
-          - surround
+    - pid: 482
+      language: SPA
+      skip_processing: false
+      labels:
+      - surround
     scte35_grooming:
-      - pid: 500
-        skip_processing: false
+    - pid: 500
+      skip_processing: false
     cc_conversion_mode: EIA608
   srt:
     host: egress-5ab867c74ec0390058d68137.lrs.vos360.video
@@ -34,19 +34,19 @@ source_b:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: SPA
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+      - language: SPA
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
     audio_grooming:
-      - pid: 482
-        language: SPA
-        skip_processing: false
-        labels:
-          - surround
+    - pid: 482
+      language: SPA
+      skip_processing: false
+      labels:
+      - surround
     scte35_grooming:
-      - pid: 500
-        skip_processing: false
+    - pid: 500
+      skip_processing: false
     cc_conversion_mode: EIA608
   srt:
     host: egress-5ab867c74ec0390058d68337.lrs.vos360.video

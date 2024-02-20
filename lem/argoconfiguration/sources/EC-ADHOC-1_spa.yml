@@ -1,24 +1,22 @@
-# lemSpecificData:
-#   label UI: EC_ADHOC_1 srt
 source_a:
   program_num: 1
   grooming:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+      - language: SPA
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
     audio_grooming:
-      - pid: 482
-        language: ENG
-        skip_processing: false
-        labels:
-          - surround
+    - pid: 482
+      language: SPA
+      skip_processing: false
+      labels:
+      - surround
     scte35_grooming:
-      - pid: 500
-        skip_processing: false
+    - pid: 500
+      skip_processing: false
     cc_conversion_mode: EIA608
   srt:
     host: egress-5ab867c74ec0390058d68175.lrs.vos360.video
@@ -36,19 +34,19 @@ source_b:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: ENG
-          service_number: 1
-          digital_cc: 0
-          default_subtitle: true
+      - language: SPA
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
     audio_grooming:
-      - pid: 482
-        language: ENG
-        skip_processing: false
-        labels:
-          - surround
+    - pid: 482
+      language: SPA
+      skip_processing: false
+      labels:
+      - surround
     scte35_grooming:
-      - pid: 500
-        skip_processing: false
+    - pid: 500
+      skip_processing: false
     cc_conversion_mode: EIA608
   srt:
     host: egress-5ab867c74ec0390058d68375.lrs.vos360.video

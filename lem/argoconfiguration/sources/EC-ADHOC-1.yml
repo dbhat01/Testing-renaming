@@ -1,0 +1,62 @@
+# lemSpecificData:
+#   label UI: EC-ADHOC-1
+source_a:
+  program_num: 1
+  grooming:
+    video_grooming:
+      pid: 481
+      closed_caption:
+      - language: ENG
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
+    audio_grooming:
+    - pid: 482
+      language: ENG
+      skip_processing: false
+      labels:
+      - surround
+    scte35_grooming:
+    - pid: 500
+      skip_processing: false
+    cc_conversion_mode: EIA608
+  srt:
+    host: egress-5ab867c74ec0390058d68175.lrs.vos360.video
+    port: 7086
+    decryption_type: AES_256
+    decryption_key: 7DSwOYiBE8AHUbNdv5m8
+  secondary_srt:
+    host: egress-5ab867c74ec0390058d68375.lrs.vos360.video
+    port: 7086
+    decryption_type: AES_256
+    decryption_key: cPzHjxnq81dNqkwgMnct
+source_b:
+  program_num: 1
+  grooming:
+    video_grooming:
+      pid: 481
+      closed_caption:
+      - language: ENG
+        service_number: 1
+        digital_cc: 0
+        default_subtitle: true
+    audio_grooming:
+    - pid: 482
+      language: ENG
+      skip_processing: false
+      labels:
+      - surround
+    scte35_grooming:
+    - pid: 500
+      skip_processing: false
+    cc_conversion_mode: EIA608
+  srt:
+    host: egress-5ab867c74ec0390058d68375.lrs.vos360.video
+    port: 7086
+    decryption_type: AES_256
+    decryption_key: cPzHjxnq81dNqkwgMnct
+  secondary_srt:
+    host: egress-5ab867c74ec0390058d68175.lrs.vos360.video
+    port: 7086
+    decryption_type: AES_256
+    decryption_key: 7DSwOYiBE8AHUbNdv5m8
